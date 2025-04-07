@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+@layer base {
+  [data-theme="light"] {
+    --font-sans: "Inter", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="dark"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="cupcake"] {
+    --font-sans: "Poppins", cursive;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="bumblebee"] {
+    --font-sans: "Nunito", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="emerald"] {
+    --font-sans: "Playfair Display", serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="corporate"] {
+    --font-sans: "Ubuntu", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="synthwave"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="retro"] {
+    --font-sans: "Poppins", cursive;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="cyberpunk"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="valentine"] {
+    --font-sans: "Nunito", cursive;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="halloween"] {
+    --font-sans: "Playfair Display", serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="garden"] {
+    --font-sans: "Poppins", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="forest"] {
+    --font-sans: "Ubuntu", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="aqua"] {
+    --font-sans: "Inter", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="lofi"] {
+    --font-sans: "Playfair Display", serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="pastel"] {
+    --font-sans: "Poppins", cursive;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="fantasy"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="wireframe"] {
+    --font-sans: "Inter", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="black"] {
+    --font-sans: "Ubuntu", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="luxury"] {
+    --font-sans: "Playfair Display", serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="dracula"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="cmyk"] {
+    --font-sans: "Nunito", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="autumn"] {
+    --font-sans: "Poppins", cursive;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="business"] {
+    --font-sans: "Ubuntu", sans-serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="acid"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="lemonade"] {
+    --font-sans: "Inter", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  [data-theme="night"] {
+    --font-sans: "Orbitron", sans-serif;
+    --font-mono: "Share Tech Mono", monospace;
+  }
+
+  [data-theme="coffee"] {
+    --font-sans: "Playfair Display", serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  [data-theme="winter"] {
+    --font-sans: "Poppins", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+}

@@ -12,7 +12,7 @@ dotenv.config();
 
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
-
+//kk
 app.use(
   cors({
     origin: "http://localhost:5173",

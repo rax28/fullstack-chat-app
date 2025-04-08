@@ -30,12 +30,14 @@ app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
-app.use(express.static(path.join(__dirname, "../../frontend/dist")));
-console.log(path.join(__dirname, "../../frontend/dist"));
-// Serve the index.html file for all other routes
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../frontend", "dist", "index.html"));
-});
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+  // Serve the index.html file for all other routes
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+  });
+}
 
 server.listen(PORT, () => {
   console.log("server is running on port:" + PORT);
